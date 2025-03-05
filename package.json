@@ -1,0 +1,23 @@
+{
+  "name": "artbot",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "build": "vite build",
+    "run": "node ./dist/artbot.cjs"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "node-cron": "^3.0.3",
+    "node-telegram-bot-api": "^0.66.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.9",
+    "@types/node-cron": "^3.0.11",
+    "@types/node-telegram-bot-api": "^0.64.7",
+    "typescript": "~5.7.2",
+    "vite": "^6.2.0",
+    "vite-plugin-copy": "^0.1.6"
+  }
+}
